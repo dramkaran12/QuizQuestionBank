@@ -1,5 +1,5 @@
 {
-  "jsonData" : [
+  "HTMLQuiz" : [
     {
         "question" : "What is the command for a header size 1?",
         "choice1" : "header1",
@@ -18,6 +18,25 @@
         "q-type":"radio",
         "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2. "
     }
-
+  ],
+  "JavaQuiz" : [
+    {
+        "question" : "Which command allows you to print?",
+        "choice1" : "print",
+        "choice2" : "System.out",
+        "choice3" : "System.out.print",
+        "answer" : "choice3",
+        "q-type":"radio",
+        "feedback": "The correct answer is System.out.print() in the Java language. "
+    },
+    {
+        "question" : "If I want to set a variable to a decimal, which type of variable to I use?",
+        "choice1" : "int",
+        "choice2" : "double",
+        "choice3" : "decimal",
+        "answer" : "double",
+        "q-type":"choice2",
+        "feedback": "The correct answer is double. You can declare an int as a double, but cannot declare a double as an int."
+    }
   ]
 }
