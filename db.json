@@ -1,6 +1,7 @@
 {
   "HTMLQuiz" : [
     {
+        "id" : 1;
         "question" : "What is the command for a header size 1?",
         "choice1" : "header1",
         "choice2" : "h1",
@@ -10,6 +11,7 @@
         "feedback": "The correct answer is h1. Although h1 stands for header with font size 1, the command to use in HTML is h1. "
     },
     {
+        "id" : 2;
         "question" : "What is the command for a header size 2?",
         "choice1" : "header2",
         "choice2" : "h2",
@@ -21,6 +23,7 @@
   ],
   "JavaQuiz" : [
     {
+        "id" : 1;
         "question" : "Which command allows you to print?",
         "choice1" : "print",
         "choice2" : "System.out",
@@ -30,6 +33,7 @@
         "feedback": "The correct answer is System.out.print() in the Java language. "
     },
     {
+        "id" : 2;
         "question" : "If I want to set a variable to a decimal, which type of variable to I use?",
         "choice1" : "int",
         "choice2" : "double",
