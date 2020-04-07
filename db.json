@@ -1,46 +1,61 @@
 {
-  "HTMLQuiz" : [
+  "quizzes": [
     {
-        "id" : 1,
-        "question" : "What is the command for a header size 1?",
-        "choice1" : "header1",
-        "choice2" : "h1",
-        "choice3" : "head-size-1",
-        "answer" : "choice2",
-        "q-type":"radio",
-        "feedback": "The correct answer is h1. Although h1 stands for header with font size 1, the command to use in HTML is h1. "
-    },
-    {
-        "id" : 2,
-        "question" : "What is the command for a header size 2?",
-        "choice1" : "header2",
-        "choice2" : "h2",
-        "choice3" : "head-size-2",
-        "answer" : "choice2",
-        "q-type":"radio",
-        "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2. "
-    }
-  ],
-  "JavaQuiz" : [
-    {
-        "id" : 1,
-        "question" : "Which command allows you to print?",
-        "choice1" : "print",
-        "choice2" : "System.out",
-        "choice3" : "System.out.print",
-        "answer" : "choice3",
-        "q-type":"radio",
-        "feedback": "The correct answer is System.out.print() in the Java language. "
-    },
-    {
-        "id" : 2,
-        "question" : "If I want to set a variable to a decimal, which type of variable to I use?",
-        "choice1" : "int",
-        "choice2" : "double",
-        "choice3" : "decimal",
-        "answer" : "double",
-        "q-type":"choice2",
-        "feedback": "The correct answer is double. You can declare an int as a double, but cannot declare a double as an int."
+      "name": "HTMLQuiz",
+      "questions": [
+        {
+          "question": "What is the command for a header size 1?",
+          "type": "multiple-choice",
+          "choices": [
+            "header1",
+            "h1",
+            "head-size-1"
+          ],
+          "answer": "h1",
+          "feedback": "The correct answer is h1. Although h1 stands for header with font size 1, the command to use in HTML is h1."
+        },
+        {
+          "question": "What is the command for a header size 2?",
+          "type": "drop-down",
+          "choices": [
+            "header2",
+            "h2",
+            "head-size-2"
+          ],
+          "answer": "h2",
+          "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+        },
+        {
+          "question": "What is the command for a header size 2?",
+          "type": "checkbox",
+          "choices": [
+            "header2",
+            "h2",
+            "head-size-2"
+          ],
+          "answer": {
+            "header2": true,
+            "h2": true
+            },
+          "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+        },
+        {
+          "question": "The command for a header size 2 is h2.",
+          "type": "true-false",
+          "choices": [
+            "true",
+            "false"
+          ],
+          "answer": "true",
+          "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+        },
+        {
+          "question": "The command for a header size 2 is what?",
+          "type": "fill",
+          "answer": "h2",
+          "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+        }
+      ]
     }
   ]
 }
