@@ -56,6 +56,63 @@
           "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
         }
       ]
+    },
+    {
+      "name": "JavaQuiz",
+      "questions": [
+        {
+          "question": "How do you make a print statement?",
+          "type": "multiple-choice",
+          "choices": [
+            "System.out.print",
+            "System.out",
+            "print"
+          ],
+          "answer": "System.out.print",
+          "feedback": "The correct answer is System.out.print."
+        },
+        {
+          "question": "What is the command for a header size 2?",
+          "type": "drop-down",
+          "choices": [
+            "header2",
+            "h2",
+            "head-size-2"
+          ],
+          "answer": "h2",
+          "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+        },
+        {
+          "question": "What is the variable used to declare a number/decimal?",
+          "type": "checkbox",
+          "choices": [
+            "int",
+            "decimal",
+            "double"
+          ],
+          "answer": {
+            "decimal": true,
+            "double": true
+            },
+          "feedback": "Decimal is not used to define a decimal value, instead double is used."
+        },
+        {
+          "question": "To define a variable that never changes, use final before it.",
+          "type": "true-false",
+          "choices": [
+            "true",
+            "false"
+          ],
+          "answer": "true",
+          "feedback": "Final is the keyword used to define a variable whoms value will not change."
+        },
+        {
+          "question": "What is the value of sum: int sum = 4 + 6; ",
+          "type": "fill",
+          "answer": "10",
+          "feedback": "The correct answer for sum is 10, since 4+6 = 10"
+        }
+      ]
     }
   ]
 }
