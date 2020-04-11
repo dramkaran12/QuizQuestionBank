@@ -1,56 +1,213 @@
 {
   "HTMLQuiz" : [
     {
-      "question": "What is the command for a header size 1?",
+      "question": "What is the command for a header 1?",
       "type": "multiple-choice",
       "choices": [
-        "header1",
-        "h1",
-        "head-size-1"
+        "<header1>",
+        "<h1>",
+        "<head-size-1>"
       ],
-      "answer": "h1",
-      "feedback": "The correct answer is h1. Although h1 stands for header with font size 1, the command to use in HTML is h1."
+      "answer": "<h1>",
+      "feedback": "The correct answer is h1. It is a header tag, but the tag <h1> is used to add a header 1. "
     },
     {
-      "question": "What is the command for a header size 2?",
+      "question": "What does HTML stand for?",
       "type": "drop-down",
       "choices": [
-        "header2",
-        "h2",
-        "head-size-2"
+        "HyperText Markup Language",
+        "Hexidecimal Text Mark Language",
+        "Hyper Text Mixup Language"
       ],
-      "answer": "h2",
-      "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+      "answer": "HyperText Markup Language",
+      "feedback": "The correct answer is Hyper Text Markup Language. It is used on World Wide Web pages to display content on webpages."
     },
     {
-      "question": "What is the command for a header size 2?",
+      "question": "Which answers below are valid HTML tags?",
       "type": "checkbox",
       "choices": [
-        "header2",
-        "h2",
-        "head-size-2"
+        "<script>",
+        "<formContent>",
+        "<iframe>"
       ],
       "answer": [
-        "header2",
-        "h2"
+        "<script>",
+        "<iframe>"
       ],
-      "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+      "feedback": "The correct answer is <script> used to add Javascript and <iframe> which embedes another doc into your HTML document. The tag used to create a form element is <form>, not <formContent>."
     },
     {
-      "question": "The command for a header size 2 is h2.",
+      "question": "You would add the <title> element in the body of your page",
+      "type": "true-false",
+      "choices": [
+        "true",
+        "false"
+      ],
+      "answer": "false",
+      "feedback": "The <title> would be defined in the head of your HTML."
+    },
+    {
+      "question": "What does the following print out (hint: case-sensitive): <p> Hello World </p>",
+      "type": "fill",
+      "answer": "Hello World",
+      "feedback": "The correct answer is : Hello World   |  Your response is case sensitive and your webpage only displays what is in between your tags."
+    },
+    {
+      "question": "Once you deploy your site on the internet, what is the name of the address to access the site?",
+      "type": "multiple-choice",
+      "choices": [
+        "WWW",
+        "URL",
+        "file:/"
+      ],
+      "answer": "URL",
+      "feedback": "The correct answer is URL. WWW or the World Wide Web is used to access your network and file:/ may be the path used to access files on your local machine. URL is the address used to access your site once it is deployed online."
+    },
+    {
+      "question": "What language is used to style your HTML webpage?",
+      "type": "drop-down",
+      "choices": [
+        "CSS",
+        "Javascript",
+        "JQuery"
+      ],
+      "answer": "CSS",
+      "feedback": "CSS is used to style element on your webpage, where Javascript and JQuery may be added for functionality or responsive design."
+    },
+    {
+      "question": "Whic tag is used to add a photo to HTML?",
+      "type": "checkbox",
+      "choices": [
+        "<picture>",
+        "<img>",
+        "<image>"
+      ],
+      "answer": [
+        "<img>",
+        "<image>"
+      ],
+      "feedback": "The correct answer is <img> to add an image into your code. The others, <picture> and <image> are not valid."
+    },
+    {
+      "question": "You cannot add Javascript into the body of your HTML.",
+      "type": "true-false",
+      "choices": [
+        "true",
+        "false"
+      ],
+      "answer": "false",
+      "feedback": "Javascript can be added internally or externally by using the <script></script> tags in both the head and body of your code."
+    },
+    {
+      "question": "Enter the tag used to add a paragraph element (do not use tags)",
+      "type": "fill",
+      "answer": "p",
+      "feedback": "The correct answer is p. It would be called in the HTML as <p> Hello World </p>"
+    },
+    {
+      "question": "What tag is used to define a table row?",
+      "type": "multiple-choice",
+      "choices": [
+        "<row>",
+        "<table_row>",
+        "<tr>"
+      ],
+      "answer": "<tr>",
+      "feedback": "The correct answer is tr, which is known as table row, but is the syntax used. "
+    },
+    {
+      "question": "Which CSS attribute is used to change the color of font?",
+      "type": "drop-down",
+      "choices": [
+        "font-color",
+        "color",
+        "fColor"
+      ],
+      "answer": "color",
+      "feedback": "The attribute to set the color of font is color. Font-color and fColor are not valid."
+    },
+    {
+      "question": "Which attributes are used when adding an external CSS file to HTML?",
+      "type": "checkbox",
+      "choices": [
+        "rel",
+        "href",
+        "link"
+      ],
+      "answer": [
+        "rel",
+        "href"
+      ],
+      "feedback": "<link> is used as the HTML tag, but is not an attribute."
+    },
+    {
+      "question": "<br> is used to add a new line",
       "type": "true-false",
       "choices": [
         "true",
         "false"
       ],
       "answer": "true",
-      "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+      "feedback": "<br> is used to add a new line between elements."
     },
     {
-      "question": "The command for a header size 2 is what?",
+      "question": "How many heading types are there?",
       "type": "fill",
-      "answer": "h2",
-      "feedback": "The correct answer is h2. Although h2 stands for header with font size 2, the command to use in HTML is h2."
+      "answer": "6",
+      "feedback": "The correct answer is 6. They are <h1>, <h2>, <h3>, <h4>, <h5>, <h6> "
+    },
+    {
+      "question": "What type of styling does <span> add to your HTML?",
+      "type": "multiple-choice",
+      "choices": [
+        "inline",
+        "block",
+        "external file"
+      ],
+      "answer": "inline",
+      "feedback": "The correct answer is inline, as it does not create an extra space."
+    },
+    {
+      "question": "What is the input type of a checkbox?",
+      "type": "drop-down",
+      "choices": [
+        "check",
+        "checkbox",
+        "squarebox"
+      ],
+      "answer": "checkbox",
+      "feedback": "The correct answer is checkbox type used when declaring a checkbox form."
+    },
+    {
+      "question": "Why add CSS to HTML?",
+      "type": "checkbox",
+      "choices": [
+        "More user engagement",
+        "More appealing",
+        "Gives the page a unique design"
+      ],
+      "answer": [
+        "More user engagement",
+        "More appealing",
+        "Gives the page a unique design"
+      ],
+      "feedback": "The correct answer is all of the above. By adding CSS, more people will come to your site once they have a great user experience."
+    },
+    {
+      "question": "<!DOCTYPE html> comes from HTML4.",
+      "type": "true-false",
+      "choices": [
+        "true",
+        "false"
+      ],
+      "answer": "false",
+      "feedback": "<!DOCTYPE html> comes from HTML5."
+    },
+    {
+      "question": "What keyword forces a user to submit a form?",
+      "type": "fill",
+      "answer": "required",
+      "feedback": "The required keyword forces the user to enter a response before submitting."
     }
   ]
 }
