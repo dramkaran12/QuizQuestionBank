@@ -86,7 +86,7 @@
         "img ",
         "image "
       ],
-      "feedback": "The correct answer is img  to add an image into your code. The others, picture  and image  are not valid."
+      "feedback": "The correct answer is img and image to add an image into your code. The others, picture  and image  are not valid."
     },
     {
       "question": "You cannot add Javascript into the body of your HTML.",
