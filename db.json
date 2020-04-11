@@ -4,12 +4,12 @@
       "question": "What is the command for a header 1?",
       "type": "multiple-choice",
       "choices": [
-        "<header1>",
-        "<h1>",
-        "<head-size-1>"
+        "header1",
+        "h1",
+        "head-size-1"
       ],
-      "answer": "<h1>",
-      "feedback": "The correct answer is h1. It is a header tag, but the tag <h1> is used to add a header 1. "
+      "answer": "h1",
+      "feedback": "The correct answer is h1. It is a header tag, but the tag h1  is used to add a header 1. "
     },
     {
       "question": "What does HTML stand for?",
@@ -26,28 +26,28 @@
       "question": "Which answers below are valid HTML tags?",
       "type": "checkbox",
       "choices": [
-        "<script>",
-        "<formContent>",
-        "<iframe>"
+        "script",
+        "formContent",
+        "iframe"
       ],
       "answer": [
-        "<script>",
-        "<iframe>"
+        "script",
+        "iframe "
       ],
-      "feedback": "The correct answer is <script> used to add Javascript and <iframe> which embedes another doc into your HTML document. The tag used to create a form element is <form>, not <formContent>."
+      "feedback": "The correct answer is script  used to add Javascript and iframe  which embedes another doc into your HTML document. The tag used to create a form element is form , not formContent ."
     },
     {
-      "question": "You would add the <title> element in the body of your page",
+      "question": "You would add the title  element in the body of your page",
       "type": "true-false",
       "choices": [
         "true",
         "false"
       ],
       "answer": "false",
-      "feedback": "The <title> would be defined in the head of your HTML."
+      "feedback": "The title  would be defined in the head of your HTML."
     },
     {
-      "question": "What does the following print out (hint: case-sensitive): <p> Hello World </p>",
+      "question": "What does the following print out (hint: case-sensitive): p  Hello World /p ",
       "type": "fill",
       "answer": "Hello World",
       "feedback": "The correct answer is : Hello World   |  Your response is case sensitive and your webpage only displays what is in between your tags."
@@ -78,15 +78,15 @@
       "question": "Whic tag is used to add a photo to HTML?",
       "type": "checkbox",
       "choices": [
-        "<picture>",
-        "<img>",
-        "<image>"
+        "picture ",
+        "img ",
+        "image "
       ],
       "answer": [
-        "<img>",
-        "<image>"
+        "img ",
+        "image "
       ],
-      "feedback": "The correct answer is <img> to add an image into your code. The others, <picture> and <image> are not valid."
+      "feedback": "The correct answer is img  to add an image into your code. The others, picture  and image  are not valid."
     },
     {
       "question": "You cannot add Javascript into the body of your HTML.",
@@ -96,23 +96,23 @@
         "false"
       ],
       "answer": "false",
-      "feedback": "Javascript can be added internally or externally by using the <script></script> tags in both the head and body of your code."
+      "feedback": "Javascript can be added internally or externally by using the script /script  tags in both the head and body of your code."
     },
     {
       "question": "Enter the tag used to add a paragraph element (do not use tags)",
       "type": "fill",
       "answer": "p",
-      "feedback": "The correct answer is p. It would be called in the HTML as <p> Hello World </p>"
+      "feedback": "The correct answer is p. It would be called in the HTML as p  Hello World /p "
     },
     {
       "question": "What tag is used to define a table row?",
       "type": "multiple-choice",
       "choices": [
-        "<row>",
-        "<table_row>",
-        "<tr>"
+        "row ",
+        "table_row ",
+        "tr "
       ],
-      "answer": "<tr>",
+      "answer": "tr ",
       "feedback": "The correct answer is tr, which is known as table row, but is the syntax used. "
     },
     {
@@ -138,26 +138,26 @@
         "rel",
         "href"
       ],
-      "feedback": "<link> is used as the HTML tag, but is not an attribute."
+      "feedback": "link  is used as the HTML tag, but is not an attribute."
     },
     {
-      "question": "<br> is used to add a new line",
+      "question": "br  is used to add a new line",
       "type": "true-false",
       "choices": [
         "true",
         "false"
       ],
       "answer": "true",
-      "feedback": "<br> is used to add a new line between elements."
+      "feedback": "br  is used to add a new line between elements."
     },
     {
       "question": "How many heading types are there?",
       "type": "fill",
       "answer": "6",
-      "feedback": "The correct answer is 6. They are <h1>, <h2>, <h3>, <h4>, <h5>, <h6> "
+      "feedback": "The correct answer is 6. They are h1 , h2 , h3 , h4 , h5 , h6  "
     },
     {
-      "question": "What type of styling does <span> add to your HTML?",
+      "question": "What type of styling does span  add to your HTML?",
       "type": "multiple-choice",
       "choices": [
         "inline",
@@ -194,14 +194,14 @@
       "feedback": "The correct answer is all of the above. By adding CSS, more people will come to your site once they have a great user experience."
     },
     {
-      "question": "<!DOCTYPE html> comes from HTML4.",
+      "question": "!DOCTYPE html  comes from HTML4.",
       "type": "true-false",
       "choices": [
         "true",
         "false"
       ],
       "answer": "false",
-      "feedback": "<!DOCTYPE html> comes from HTML5."
+      "feedback": "!DOCTYPE html  comes from HTML5."
     },
     {
       "question": "What keyword forces a user to submit a form?",
