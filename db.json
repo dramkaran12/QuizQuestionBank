@@ -78,13 +78,13 @@
       "question": "Whic tag is used to add a photo to HTML?",
       "type": "checkbox",
       "choices": [
-        "picture ",
-        "img ",
-        "image "
+        "picture",
+        "img",
+        "image"
       ],
       "answer": [
-        "img ",
-        "image "
+        "img",
+        "image"
       ],
       "feedback": "The correct answer is img and image to add an image into your code. The others, picture  and image  are not valid."
     },
