@@ -108,11 +108,11 @@
       "question": "What tag is used to define a table row?",
       "type": "multiple-choice",
       "choices": [
-        "row ",
-        "table_row ",
-        "tr "
+        "row",
+        "table_row",
+        "tr"
       ],
-      "answer": "tr ",
+      "answer": "tr",
       "feedback": "The correct answer is tr, which is known as table row, but is the syntax used. "
     },
     {
