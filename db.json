@@ -1,7 +1,7 @@
 {
   "HTMLQuiz" : [
     {
-      "question": "What is the command for a header 1?",
+      "question": "What is the header tag name for header 1?",
       "type": "multiple-choice",
       "choices": [
         "header1",
@@ -9,7 +9,7 @@
         "head-size-1"
       ],
       "answer": "h1",
-      "feedback": "The correct answer is h1. It is a header tag, but the tag h1  is used to add a header 1. "
+      "feedback": "The correct answer is h1."
     },
     {
       "question": "What does HTML stand for?",
@@ -32,28 +32,28 @@
       ],
       "answer": [
         "script",
-        "iframe "
+        "iframe"
       ],
-      "feedback": "The correct answer is script  used to add Javascript and iframe  which embedes another doc into your HTML document. The tag used to create a form element is form , not formContent ."
+      "feedback": "The correct answer is script which is used to add Javascript and iframe which embedes another doc into your HTML document. The tag used to create a form element is form, not formContent."
     },
     {
-      "question": "You would add the title  element in the body of your page",
+      "question": "You add the title element in the body of your page.",
       "type": "true-false",
       "choices": [
-        "true",
-        "false"
+        "True",
+        "False"
       ],
-      "answer": "false",
-      "feedback": "The title  would be defined in the head of your HTML."
+      "answer": "False",
+      "feedback": "The title would be defined in the head of your HTML."
     },
     {
-      "question": "What does the following print out (hint: case-sensitive): p  Hello World /p ",
+      "question": "Enter the tag name used for a bullet list.",
       "type": "fill",
-      "answer": "Hello World",
-      "feedback": "The correct answer is : Hello World   |  Your response is case sensitive and your webpage only displays what is in between your tags."
+      "answer": "ul",
+      "feedback": "A bullet list would use ul as an unirdered list."
     },
     {
-      "question": "Once you deploy your site on the internet, what is the name of the address to access the site?",
+      "question": "Once you deploy your site on the internet, what is the name of the address used to access the site?",
       "type": "multiple-choice",
       "choices": [
         "WWW",
@@ -72,7 +72,7 @@
         "JQuery"
       ],
       "answer": "CSS",
-      "feedback": "CSS is used to style element on your webpage, where Javascript and JQuery may be added for functionality or responsive design."
+      "feedback": "CSS is used to style element on your webpage, whereas Javascript and JQuery may be added for functionality or responsive design."
     },
     {
       "question": "Whic tag is used to add a photo to HTML?",
@@ -86,23 +86,23 @@
         "img",
         "image"
       ],
-      "feedback": "The correct answer is img and image to add an image into your code. The others, picture  and image  are not valid."
+      "feedback": "The correct answer is img and image to add an image into your code."
     },
     {
       "question": "You cannot add Javascript into the body of your HTML.",
       "type": "true-false",
       "choices": [
-        "true",
-        "false"
+        "True",
+        "False"
       ],
-      "answer": "false",
-      "feedback": "Javascript can be added internally or externally by using the script /script  tags in both the head and body of your code."
+      "answer": "False",
+      "feedback": "Javascript can be added in both the head and body of your code."
     },
     {
-      "question": "Enter the tag used to add a paragraph element (do not use tags)",
+      "question": "Enter the tag name used to add a paragraph element (do not use tags)",
       "type": "fill",
       "answer": "p",
-      "feedback": "The correct answer is p. It would be called in the HTML as p  Hello World /p "
+      "feedback": "The correct answer is p."
     },
     {
       "question": "What tag is used to define a table row?",
@@ -113,7 +113,7 @@
         "tr"
       ],
       "answer": "tr",
-      "feedback": "The correct answer is tr, which is known as table row, but is the syntax used. "
+      "feedback": "The correct syntax is tr, which is known as table row. "
     },
     {
       "question": "Which CSS attribute is used to change the color of font?",
@@ -138,16 +138,16 @@
         "rel",
         "href"
       ],
-      "feedback": "link  is used as the HTML tag, but is not an attribute."
+      "feedback": "Link is used as the HTML tag to link HTML and external resource, but is not an attribute, however rel and href are."
     },
     {
-      "question": "br  is used to add a new line",
+      "question": "br tag is used to add a new line",
       "type": "true-false",
       "choices": [
-        "true",
-        "false"
+        "True",
+        "False"
       ],
-      "answer": "true",
+      "answer": "True",
       "feedback": "br  is used to add a new line between elements."
     },
     {
@@ -157,7 +157,7 @@
       "feedback": "The correct answer is 6. They are h1 , h2 , h3 , h4 , h5 , h6  "
     },
     {
-      "question": "What type of styling does span  add to your HTML?",
+      "question": "What type of styling does span add to your HTML?",
       "type": "multiple-choice",
       "choices": [
         "inline",
@@ -179,29 +179,27 @@
       "feedback": "The correct answer is checkbox type used when declaring a checkbox form."
     },
     {
-      "question": "Why add CSS to HTML?",
+      "question": "How would you add a comment in HTML?",
       "type": "checkbox",
       "choices": [
-        "More user engagement",
-        "More appealing",
-        "Gives the page a unique design"
+        "//",
+        "/* */",
+        "<!-- -->"
       ],
       "answer": [
-        "More user engagement",
-        "More appealing",
-        "Gives the page a unique design"
+        "<!-- -->",
       ],
-      "feedback": "The correct answer is all of the above. By adding CSS, more people will come to your site once they have a great user experience."
+      "feedback": "The correct answer is <!-- --> in HTML."
     },
     {
-      "question": "!DOCTYPE html  comes from HTML4.",
+      "question": "!DOCTYPE html tag comes from HTML4.",
       "type": "true-false",
       "choices": [
-        "true",
-        "false"
+        "True",
+        "False"
       ],
-      "answer": "false",
-      "feedback": "!DOCTYPE html  comes from HTML5."
+      "answer": "False",
+      "feedback": "!DOCTYPE html tag comes from HTML5."
     },
     {
       "question": "What keyword forces a user to submit a form?",
