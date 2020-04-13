@@ -15,9 +15,9 @@
       "question": "Which image displays the right way to add an external Javascript file to your html?",
       "type": "image-selection",
       "choices": [
-        "JavaQuizPics/scriptcode1.jpg",
-        "JavaQuizPics/scriptcode2.jpg",
-        "JavaQuizPics/scriptcode3.jpg"
+        "HTMLQuizPics/scriptcode1.jpg",
+        "HTMLQuizPics/scriptcode2.jpg",
+        "HTMLQuizPics/scriptcode3.jpg"
       ],
       "answer": "JavaQuizPics/scriptcode3.jpg",
       "feedback": "The third choice is the correct answer. The attribute src is used when importing the Javascript file in the HTML."
