@@ -19,8 +19,8 @@
         "HTMLQuizPics/scriptcode2.jpg",
         "HTMLQuizPics/scriptcode3.jpg"
       ],
-      "answer": "JavaQuizPics/scriptcode3.jpg",
-      "feedback": "The third choice is the correct answer. The attribute src is used when importing the Javascript file in the HTML."
+      "answer": "HTMLQuizPics/scriptcode1.jpg",
+      "feedback": "The first choice is the correct answer. The attribute src is used when importing the Javascript file in the HTML."
     },
     {
       "question": "What does HTML stand for?",
