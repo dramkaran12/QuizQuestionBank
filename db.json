@@ -179,17 +179,18 @@
       "feedback": "The correct answer is checkbox type used when declaring a checkbox form."
     },
     {
-      "question": "How would you add a comment in HTML?",
+      "question": "Which tags below are used when creating a table?",
       "type": "checkbox",
       "choices": [
-        "//",
-        "/* */",
-        "<!-- -->"
+        "table",
+        "th",
+        "iframe"
       ],
       "answer": [
-        "<!-- -->"
+        "table",
+        "th"
       ],
-      "feedback": "The correct answer is <!-- --> in HTML."
+      "feedback": "The correct answer is table and th. The other tag, iframe, is used to embed other content."
     },
     {
       "question": "!DOCTYPE html tag comes from HTML4.",
