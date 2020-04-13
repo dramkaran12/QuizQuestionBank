@@ -12,6 +12,17 @@
       "feedback": "The correct answer is h1."
     },
     {
+      "question": "Which image displays the right way to add an external Javascript file to your html?",
+      "type": "image-selection",
+      "choices": [
+        "JavaQuizPics/scriptcode1.jpg",
+        "JavaQuizPics/scriptcode2.jpg",
+        "JavaQuizPics/scriptcode3.jpg"
+      ],
+      "answer": "JavaQuizPics/scriptcode3.jpg",
+      "feedback": "The third choice is the correct answer. The attribute src is used when importing the Javascript file in the HTML."
+    },
+    {
       "question": "What does HTML stand for?",
       "type": "drop-down",
       "choices": [
@@ -73,20 +84,6 @@
       ],
       "answer": "CSS",
       "feedback": "CSS is used to style element on your webpage, whereas Javascript and JQuery may be added for functionality or responsive design."
-    },
-    {
-      "question": "Whic tag is used to add a photo to HTML?",
-      "type": "checkbox",
-      "choices": [
-        "picture",
-        "img",
-        "image"
-      ],
-      "answer": [
-        "img",
-        "image"
-      ],
-      "feedback": "The correct answer is img and image to add an image into your code."
     },
     {
       "question": "You cannot add Javascript into the body of your HTML.",
